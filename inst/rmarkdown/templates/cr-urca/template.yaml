@@ -1,0 +1,4 @@
+name: cr-urca
+description: >
+   R Markdown template for editing short statistical reports for URCA students
+create_dir: TRUE
