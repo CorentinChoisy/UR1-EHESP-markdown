@@ -107,6 +107,15 @@ $if(listings)$
 \usepackage{listings}
 \newcommand{\passthrough}[1]{#1}
 $endif$
+% Adding environment CSLReferences for compatibility with pandoc >= 2.8
+% BEGIN
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+  {\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
+  {\par}
+% END
 $if(lhs)$
 \lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
 $endif$
