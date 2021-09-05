@@ -9,17 +9,17 @@ geometry:
   - bottom=2cm
 title: "Un titre évocateur et relativement court pour le compte-rendu"
 author: 
-  - Premier AUTEUR
-  - Second AUTEUR
+  - Prenom NOM
+  - Prenom2 NOM2
 email:
-  - premier.auteur@univ-reims.fr
-  - second.auteur@univ-reims.fr
+  - premier.auteur@etudiant.univ-rennes1.fr
+  - second.auteur@etudiant.univ-rennes1.fr
 date: "`r format(Sys.time(), '%d %B %Y')`"
 abstract: "Un paragraphe présentant de façon synthétique le contenu du compte-rendu."
-anac: "2019-2020"
-diplome: "Licence Mathématiques Appliquées, 3\\up{ème} année"
-module: "MA0606"
-enseig: "Philippe Regnault"
+anac: "2021-2022"
+diplome: "Master 1 Santé Publique, Sciences Quantitatives"
+module: "MODU"
+enseig: "P. NOM"
 evaluation: "Compte-rendu d'analyse"
 output: 
   bookdown::pdf_book:
