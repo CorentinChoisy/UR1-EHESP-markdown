@@ -1,13 +1,13 @@
-Package: urcadown
+Package: ur1down
 Type: Package
-Title: Templates for editing R Markodwon documents compatible with URCA graphic chart.
+Title: Templates for editing R Markodwon documents compatible with Rennes 1 graphic chart.
 Version: 0.1.0
-Date: 2020-04-09
+Date: 2021-05-09
 Author: Philippe Regnault [aut, cre]
-Maintainer: Philippe Regnault <philippe.regnault@univ-reims.fr>
-Description: Provides templates for editing R Markdown documents that fits URCA graphical requirements.
+Maintainer: Corentin CHoisy <corentin.choisy@etudiant.univ-rennes1.fr>
+Description: Provides templates for editing R Markdown documents that fits Rennes 1 graphical requirements.
 Depends: knitr, rmarkdown, bookdown, formatR, kableExtra
 License: GPL (>= 2)
 Encoding: UTF-8
-URL: <https://github.com/pregnault/urcadown.git>
+URL: <https://github.com/CorentinChoisy/UR1-EHESP-markdown.git>
 LazyData: true
