@@ -69,7 +69,7 @@ On peut également insérer du code R en ligne, qui sera remplacé par le résul
 
 # Deuxième partie
 
-Le template `cr-urca` utilise le package `bookdown` apportant quelques fonctionnalités supplémentaires, dont la gestion des références croisées et des citations. La Figure \@ref(fig:dotplotex) donne un exemple de graphique accompagné de sa légende.
+Le template `cr-ur1` utilise le package `bookdown` apportant quelques fonctionnalités supplémentaires, dont la gestion des références croisées et des citations. La Figure \@ref(fig:dotplotex) donne un exemple de graphique accompagné de sa légende.
 
 (ref:capdotplotex) Un exemple de graphique produit par R, inséré et légendé grâce à _R Markdown_. S'il y a lieu, on précise la source des donnés, la cohorte et on explique comment lire le graphique.
 __Cohorte :__ on peut insérer du code R dans la légende : il y a `r length(seq(0, 1, by = 0.01))` points utilisé pour tracer ce graphique. 
