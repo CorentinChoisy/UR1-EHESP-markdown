@@ -31,7 +31,9 @@ bibliography: biblio_cr-urca.bib
 biblio-style: plain
 link-citations: yes
 ---
-
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.pos = "!H",out.extra="")
+```
 # Première partie
 
 ```{r, echo = FALSE}
@@ -92,23 +94,6 @@ kable(x = un_tableau, format = 'latex', caption = "(ref:captableex)", booktabs =
   kable_styling(latex_options = c('striped')) %>%
   row_spec(0, bold = TRUE)
 ```
-
-Les équations mathématiques centrées et numérotées peuvent également être référencées, comme l'équation \@ref(eq:equationex).
-
-\begin{equation}
- \mathbb{H}(p_1, \dots, p_n) = \sum_{i=1}^n p_i \log p_i, \quad p_i \geq 0, i = 1, \dots, n \textrm{ and }  \sum_{i=1}^n p_i =1.
- (\#eq:equationex)
-\end{equation}
-
-De même, on peut faire référence aux théorèmes, propositions ou définitions que l'on déclare préalablement. Par exemple, le Théorème \@ref(thm:theoex).
-
-```{theorem, theoex, name="Pythagorean theorem", echo=TRUE}
-For a right triangle, if $c$ denotes the length of the hypotenuse
-and $a$ and $b$ denote the lengths of the other two sides, we have
-
-$$a^2 + b^2 = c^2.$$
-```
-
 
 Pour citer un article, un ouvrage, une page web, etc, on remplit préalablement le fichier `biblio_cr-urca.bib` en déclarant les références dans la syntaxe de _Bibtex_ puis on insère la citation. Pour plus d'information sur le fonctionnement de _R Markodown_, on pourra consulter [@rmarkdown_refbook2018].
 
