@@ -16,8 +16,8 @@ email:
   - second.auteur@etudiant.univ-rennes1.fr
 date: "`r format(Sys.time(), '%d %B %Y')`"
 abstract: "Un paragraphe présentant de façon synthétique le contenu du compte-rendu."
-anac: "2021-2022"
-diplome: "Master 1 Santé Publique, Sciences Quantitatives"
+anac: "2022-2023"
+diplome: "Master 2 Santé Publique, MPCE"
 module: "MODU"
 enseig: "P. NOM"
 evaluation: "Compte-rendu d'analyse"
